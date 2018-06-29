@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 import './Navigation.css';
 import MenuMob from '../components/MenuMob';
-
+import {Link} from 'react-router-dom';
 class Navigation extends Component {
 
 
   render() {
     return (
+
       <div>
       <div id="navbarbg" className=""> 
       <MenuMob/>
@@ -14,13 +15,14 @@ class Navigation extends Component {
 				<div  className="" id="navbar">
        
         <div className="hover">
-					<a style={{cursor: 'pointer'}} id="home" onClick={() => this.props.updatePage('home')}  className="paddnav active">Home</a>
-					 <a style={{cursor: 'pointer'}} id="band" onClick={() => this.props.updatePage('band')}   className="paddnav">Band</a>
-					 <a style={{cursor: 'pointer'}} id="shows" onClick={() => this.props.updatePage('shows')}     className="paddnav">Shows</a>
+        <div>
+        <Link  id="home"  className="paddnav active" to="/">Home</Link>
+        <Link to="/band" id="band"   className="paddnav">Band</Link>
+        <Link to="/shows" id="shows"   className="paddnav">Shows</Link>
+        <Link to="/releases" id="releases"   className="paddnav">Releases</Link>
+        <Link to="/contact" id="contact"   className="paddnav">Contact</Link>
+        </div>
 
-					 <a style={{cursor: 'pointer'}} id="releases" onClick={() => this.props.updatePage('releases')}    className="paddnav">Releases</a>
-						
-					<a style={{cursor: 'pointer'}} id="contact" onClick={() => this.props.updatePage('contact')}    className="paddnav">Contact</a>
           </div>
             </div>
      
