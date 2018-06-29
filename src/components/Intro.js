@@ -1,15 +1,22 @@
 import React, { Component } from 'react';
 import './Intro.css';
 import { Container, Row, Col } from 'react-grid-system';
+import Background from '../img/band.JPG';
+var introStyle = {
 
 
+  backgroundImage: `url(${Background})`,
+  backgroundSize: 'cover',
+  backgroundPosition: 'center',
+height: '100vh',
+}
 let links = {
 gone: 'https://www.youtube.com/watch?v=lwupD4LW99Q'
 };
 class Intro extends Component {
   render() {
     return (
-        <div>
+        <div style={introStyle}>
 
       
         <div className="middle">

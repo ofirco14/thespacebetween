@@ -29,11 +29,7 @@ class App extends Component {
       <Navigation  />
 
       </div>
-      <div style={{zIndex: 1, position: 'fixed',}} >
-      
-    
-      </div>
-
+   
 
      
       <Route exact path="/" component={Intro} />
