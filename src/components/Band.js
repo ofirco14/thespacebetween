@@ -1,5 +1,11 @@
 import React, { Component } from 'react';
 import { Container, Row, Col } from 'react-grid-system';
+import pgimage from '../img/bandpg1.jpg';
+let bg = {
+  backgroundColor: 'black',
+  height: '100vh',
+
+}
 let positionText = {
   color:'blue',
   position: 'fixed',
@@ -8,16 +14,23 @@ let positionText = {
   transform: `translate(${-50}%, ${-50}%)` 
 
 }
+let pgimagestyle = {
+  backgroundImage: `url(${pgimage})`,
+  backgroundSize: 'cover',
+  backgroundPosition: 'center',
+  height: '73vh',
+}
 class Band extends Component {
 
   render() {
     return (
 
-      <div >
+      <div style={bg}>
+      <div style={pgimagestyle}>
       <Container>
       <Row align="center">
         <Col align="center" xs={12} sm={12} md={12} lg={12}>
-         
+
         <h2 style={positionText}>
         this is band !
         </h2>
@@ -26,7 +39,7 @@ class Band extends Component {
        </Col>
         </Row>  
         </Container>
-     
+      </div>
          </div>
 
     );

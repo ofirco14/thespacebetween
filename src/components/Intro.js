@@ -25,9 +25,9 @@ class Intro extends Component {
           <Col xs={12} sm={12} md={12} lg={12}>
           <div className="spacing">
            
-          <h2 style={{color:'#b8ad82',fontWeight:'bold'}}>
+          <h1 style={{color:'white',fontWeight:'bold',fontSize:'5vh',}}>
           NEW SINGLE
-        </h2>
+        </h1>
      
           </div>
      
@@ -38,7 +38,7 @@ class Intro extends Component {
           <Col xs={12} sm={12} md={12} lg={12}>
           <div className="spacing">
 
-          <h3 style={{color:'#b8ad82'}}>
+          <h3 style={{color:'#b8ad82',fontWeight:'bold',fontSize:'4vh',}}>
           GONE
         </h3> 
         </div>
