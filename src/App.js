@@ -3,10 +3,8 @@ import './App.css';
 import Intro from './components/Intro';
 import Navigation from './components/Navigation';
 import Releases from './components/Releases';
-import Shows from './components/Shows';
 import Contact from './components/Contact';
 import Band from './components/Band';
-
 import {
   BrowserRouter as Router,
   Route,
@@ -32,9 +30,8 @@ class App extends Component {
    
 
      
-      <Route exact path="/" component={Intro} />
+      <Route exact path="/" component={Intro}  />
       <Route exact path="/band" component={Band} />
-      <Route exact path="/shows" component={Shows} />
       <Route exact path="/releases" component={Releases} />
       <Route exact path="/contact" component={Contact} />
       </div>

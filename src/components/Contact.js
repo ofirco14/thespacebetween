@@ -3,14 +3,15 @@ import { Container, Row, Col } from 'react-grid-system';
 import pgimage from '../img/contactbg1.jpg';
 let bg = {
   backgroundColor: 'black',
-  height: '100vh',
-
+  height: '100%',
 }
 let positionText = {
-  color:'blue',
+  fontSize: '6vh',
+  width:'100vw',
+  color:'white',
   position: 'fixed',
   left: '50%',
-  top:'50vh',
+  
   transform: `translate(${-50}%, ${-50}%)` 
 
 }
@@ -26,20 +27,20 @@ class Contact extends Component {
     return (
 
       <div style={bg}>
-      <div style={pgimagestyle}>
+      <div style={pgimagestyle}>      </div>
+      <br/><br/>
       <Container>
       <Row align="center">
         <Col align="center" xs={12} sm={12} md={12} lg={12}>
          
-        <h2 style={positionText}>
-        this is contact !
+        <h2  className="spacing"  style={positionText}>
+       CONTACT US 
         </h2>
    
    
        </Col>
         </Row>  
         </Container>
-      </div>
          </div>
 
     );

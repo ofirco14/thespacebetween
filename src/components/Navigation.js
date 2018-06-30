@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './Navigation.css';
 import MenuMob from '../components/MenuMob';
-import {Link} from 'react-router-dom';
+import {NavLink} from 'react-router-dom';
 class Navigation extends Component {
 
 
@@ -16,11 +16,10 @@ class Navigation extends Component {
        
         <div className="hover">
         <div>
-        <Link  id="home"  className="paddnav active" to="/">Home</Link>
-        <Link to="/band" id="band"   className="paddnav">Band</Link>
-        <Link to="/shows" id="shows"   className="paddnav">Shows</Link>
-        <Link to="/releases" id="releases"   className="paddnav">Releases</Link>
-        <Link to="/contact" id="contact"   className="paddnav">Contact</Link>
+        <NavLink  id="home"  className="paddnav" exact to="/"   activeStyle={{ color: '#b8ad82' , textDecoration: 'none' }}>Home</NavLink>
+        <NavLink exact to="/band" id="band"   className="paddnav" activeStyle={{ color: '#b8ad82' , textDecoration: 'none' }}>Band</NavLink>
+        <NavLink exact to="/releases" id="releases"   className="paddnav" activeStyle={{ color: '#b8ad82' , textDecoration: 'none' }}>Releases</NavLink>
+        <NavLink exact to="/contact" id="contact"   className="paddnav" activeStyle={{ color: '#b8ad82' , textDecoration: 'none' }}>Contact</NavLink>
         </div>
 
           </div>

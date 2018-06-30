@@ -1,7 +1,7 @@
 import React from 'react';
 import { slide as ReactMenu } from 'react-burger-menu';
 
-import {Link} from 'react-router-dom';
+import {NavLink} from 'react-router-dom';
 import './MenuMob.css';
 
 export default class MenuMob extends React.Component {
@@ -20,11 +20,10 @@ export default class MenuMob extends React.Component {
       <ReactMenu  className="menu" width={'40%'}>
       <h2>Menu</h2>
 
-      <Link  id="home"  className="paddnav active menu-item active1" to="/"><i class="fas fa-home "></i>Home</Link>
-      <Link to="/band" id="band"   className="paddnav menu-item"><i class="fas fa-users"></i> Band</Link>
-      <Link to="/shows" id="shows"   className="paddnav menu-item"><i class="fas fa-globe-asia"></i> Shows</Link>
-      <Link to="/releases" id="releases"   className="paddnav menu-item"><i class="fas fa-music"></i> Releases</Link>
-      <Link to="/contact" id="contact"   className="paddnav menu-item"><i class="fas fa-headphones"></i> Contact</Link>
+      <NavLink activeStyle={{ color: '#b8ad82' , textDecoration: 'none' }}  exact to="/" id="home"  className="paddnav menu-item"><i class="fas fa-home "  ></i>Home</NavLink>
+      <NavLink activeStyle={{ color: '#b8ad82' , textDecoration: 'none' }} exact to="/band" id="band"   className="paddnav menu-item"><i class="fas fa-users"></i> Band</NavLink>
+      <NavLink activeStyle={{ color: '#b8ad82' , textDecoration: 'none' }} exact to="/releases" id="releases"   className="paddnav menu-item"><i class="fas fa-music"></i> Releases</NavLink>
+      <NavLink activeStyle={{ color: '#b8ad82' , textDecoration: 'none' }} exact to="/contact" id="contact"   className="paddnav menu-item"><i class="fas fa-headphones"></i> Contact</NavLink>
       </ReactMenu>
 
 

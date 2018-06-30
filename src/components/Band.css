@@ -1,6 +1,12 @@
 body{
+  background-color: black;
+}
 
-background-color:black;
+.spacing{
+letter-spacing: 2px;
   }
   
-  
+  .profiles{
+    width: 250px;
+    height:auto;
+  }
