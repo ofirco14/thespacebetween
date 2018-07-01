@@ -18,7 +18,7 @@ export default class MenuMob extends React.Component {
 
 
       <ReactMenu  className="menu" width={'40%'}>
-      <h2>Menu</h2>
+      <span style={{fontSize:'5vw'}}>Menu</span>
 
       <NavLink activeStyle={{ color: '#b8ad82' , textDecoration: 'none' }}  exact to="/" id="home"  className="paddnav menu-item"><i class="fas fa-home "  ></i>Home</NavLink>
       <NavLink activeStyle={{ color: '#b8ad82' , textDecoration: 'none' }} exact to="/band" id="band"   className="paddnav menu-item"><i class="fas fa-users"></i> Band</NavLink>

@@ -6,6 +6,8 @@ import nik from '../img/nik.JPG';
 import idan from '../img/idan.JPG';
 import eli from '../img/eli.JPG';
 import yosef from '../img/yosef.JPG';
+import icon from '../img/icon.jpg';
+
 import './Band.css';
 let bg = {
   backgroundColor: 'black',
@@ -38,12 +40,15 @@ class Band extends Component {
       <br/><br/>
       <Container  fluid style={{ lineHeight: '32px' }}>
       <Row >
+     
         <Col align="center" xs={12} sm={12} md={12} lg={12}>
 
-        <h2 className="spacing" style={positionText}>
+       <div className="animated fadeInDown">
+        <h2  style={positionText}>
+        <br/>
         THE BAND
         </h2>
-
+      </div>
    
    
        </Col>
@@ -71,11 +76,13 @@ class Band extends Component {
 
        
         </Row>
+        <br/>
         <Row align="center">
         <Col align="center"lg={12}>
-       <h1 style={{color:'white'}}> THE <br/>SPACE<br/> BETWEEN  </h1>
+        <img style={{borderRadius:'50%',width:'200px',height:'auto'}}src = {icon} alt="icon"/>
         </Col>
         </Row>
+        <br/>
         <Row align="center">
         <Col  lg={6} align="center">
         <img className="profiles" src = {raanan} alt="raanan"/>

@@ -10,3 +10,8 @@ letter-spacing: 2px;
     width: 250px;
     height:auto;
   }
+      
+  h2 {
+
+    letter-spacing: 2rem;
+}

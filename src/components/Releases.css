@@ -1,5 +1,21 @@
-.spacing{
-    letter-spacing: 2px;
-      }
+@import url('https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css');
+
+body{
+  background-color: black;
+}
+
+.audioplayer{
+    border: 1px solid white;
+}
       
-      
+    h2 {
+
+        letter-spacing: 2rem;
+    }
+    h1 {
+        letter-spacing: 2rem;
+    } 
+
+    .collection{
+        
+    }

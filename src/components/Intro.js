@@ -24,11 +24,11 @@ class Intro extends Component {
         <Row align="center">
           <Col xs={12} sm={12} md={12} lg={12}>
           <div className="spacing">
-           
-          <h1 style={{color:'white',fontWeight:'bold',fontSize:'5vh',}}>
+          <div className="animated fadeInDown">
+          <h1 style={{color:'white',fontWeight:'lighter',fontSize:'7vh',}}>
           NEW SINGLE
         </h1>
-     
+        </div>
           </div>
      
          </Col>
@@ -37,10 +37,12 @@ class Intro extends Component {
           <Row align="center">
           <Col xs={12} sm={12} md={12} lg={12}>
           <div className="spacing">
+          <div className="animated fadeInDown">
 
           <h3 style={{color:'#b8ad82',fontWeight:'bold',fontSize:'4vh',}}>
           GONE
         </h3> 
+        </div>
         </div>
           </Col>
           </Row>
@@ -49,8 +51,11 @@ class Intro extends Component {
           <Row align="center">
           <Col xs={12} sm={12} md={12} lg={12}>
           <div className="buttonStyle">
+          <div className="animated fadeInDown">
+
           <a className="button" href={links.gone} target="_blank"  >WATCH IT NOW</a>
         </div>
+          </div>
           </Col>
           </Row>
       </Container>
