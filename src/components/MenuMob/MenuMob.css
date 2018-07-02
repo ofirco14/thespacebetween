@@ -1,0 +1,71 @@
+@import url('https://use.fontawesome.com/releases/v5.1.0/css/all.css');
+
+/* Position and sizing of burger button */
+.bm-burger-button {
+    display:none;
+    position: fixed;
+    width: 7vh;
+    height: 6vh;
+    left: 4vh;
+    top: 7vh;
+   
+  }
+  
+  /* Color/shape of burger icon bars */
+  .bm-burger-bars {
+    background: #fff;
+  }
+
+  /* Position and sizing of clickable cross button */
+  .bm-cross-button {
+    height: 24px;
+    width: 24px;
+  }
+  
+  /* Color/shape of close button cross */
+  .bm-cross {
+    background: #bdc3c7;
+  }
+  .active1{
+    color:#b8ad82;
+  }
+  .menu{
+      font-size:2.5vw;
+  }
+  /* General sidebar styles */
+  .bm-menu {
+  
+    background-color: #373a47;
+    padding: 1em 0.7em 0;
+    font-size: 1.15em;
+    
+  }
+  
+  /* Morph shape necessary with bubble or elastic */
+  .bm-morph-shape {
+ 
+    fill: #373a47;
+  }
+  
+  /* Wrapper for item list */
+  .bm-item-list {
+    color: #b8b7ad;
+    padding: 0.8em;
+    
+  }
+  
+  /* Individual item */
+  .bm-item {
+    display: inline-block;
+    padding:2vh;
+  }
+  .bm-item:hover{
+    color: #b8b7ad;
+    text-decoration: none;
+  }
+  
+  /* Styling of overlay */
+  .bm-overlay {
+    background: rgba(0, 0, 0, 0.3);
+  }
+

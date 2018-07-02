@@ -1,0 +1,26 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css');
+
+body{
+  background-color: black;
+}
+.loading{
+    position:absolute;
+    top: 50vh;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.audioplayer{
+    border: 1px solid white;
+}
+
+    h2 {
+
+        letter-spacing: 2rem;
+    }
+    h1 {
+        letter-spacing: 2rem;
+    } 
+
+    .activerec {
+        background-color:black !important;
+    }

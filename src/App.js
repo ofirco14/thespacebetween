@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
 import './App.css';
-import Intro from './components/Intro';
-import Navigation from './components/Navigation';
-import Releases from './components/Releases';
-import Contact from './components/Contact';
-import Band from './components/Band';
+import Intro from './components//Intro/Intro';
+import Navigation from './components/Navigation/Navigation';
+import Releases from './components/Releases/Releases';
+import Contact from './components/Contact/Contact';
+import Band from './components/Band/Band';
+
 import {
   BrowserRouter as Router,
   Route,
@@ -17,7 +18,10 @@ class App extends Component {
 
 
   render() {
+
     return (
+     
+
       <Router>
       
       <div>

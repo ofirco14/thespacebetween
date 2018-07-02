@@ -1,0 +1,47 @@
+h3 {
+
+    letter-spacing: 2rem;
+}
+h1 {
+    letter-spacing: 2rem;
+}
+.loading{
+    
+    position:absolute;
+    top: 50vh;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.middle{
+    position:fixed;
+    top: 55vh;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align:center;
+    color:white;
+    
+}
+
+.button{
+    color: #b8ad82;
+    border: 1px solid #b8ad82;
+    padding: 8px;
+    text-decoration: none;
+  
+
+}
+.button:hover{
+    color : #fff;
+	text-decoration: none;
+	border: 1px solid #b8ad82;
+    background-color:#b8ad82;
+    transition: all 0.4s;
+    padding: 8px;
+
+}
+
+.buttonStyle{
+    position:fixed;
+    left: 50%;
+    transform: translate(-57%, -57%);
+}
