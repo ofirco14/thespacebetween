@@ -1,6 +1,5 @@
 
 import React, { Component } from 'react';
-import { Container, Row, Col } from 'react-grid-system';
 import pgimage from '../../img/covers/contactbg1.jpg';
 import './Contact.css';
 import Loading from 'react-loading-components';
@@ -24,6 +23,13 @@ let pgimagestyle = {
   backgroundPosition: 'center',
   height: '73vh',
 }
+
+var templateParams = {
+  name: 'James',
+  notes: 'Check this out!'
+};
+
+
 class Contact extends Component {
   constructor() {
     super();
@@ -32,8 +38,9 @@ class Contact extends Component {
   authenticate(){
     return new Promise(resolve => setTimeout(resolve, 1000))
   }
-
+ 
 componentDidMount(){
+
   this.authenticate().then(() => {
     this.setState({ isLoading: false });
  })
@@ -57,20 +64,22 @@ componentDidMount(){
     
 
       <div style={pgimagestyle}>      </div>
-      <br/><br/>
-      <Container>
-      <Row align="center">
-        <Col align="center" xs={12} sm={12} md={12} lg={12}>
-        <div className="animated fadeInDown">
-        <h2   style={positionText}>
-       CONTACT US 
-        </h2>
-      </div>
-   
-       </Col>
-       
-        </Row>  
-        </Container>
+      <br/>
+      <div className="container" >
+      <div className="row center-align">
+      <div className="col s6 m6 l6 push-l3 push-m3 push-s3">
+      <div className="animated fadeInDown">
+       <h2  style={positionText}>
+      
+
+        CONTACT US
+       <hr style={{width:'20%'}} />
+       </h2>
+      
+     </div>
+     </div>
+     </div>
+     </div>
 
         
          </div>

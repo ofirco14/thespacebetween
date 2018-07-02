@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import './App.css';
-import Intro from './components//Intro/Intro';
-import Navigation from './components/Navigation/Navigation';
-import Releases from './components/Releases/Releases';
-import Contact from './components/Contact/Contact';
-import Band from './components/Band/Band';
+import '../containers/App.css';
+import Intro from '../components/Intro/Intro';
+import Navigation from '../components/Navigation/Navigation';
+import Releases from '../components/Releases/Releases';
+import Contact from '../components/Contact/Contact';
+import Band from '../components/Band/Band';
 
 import {
   BrowserRouter as Router,

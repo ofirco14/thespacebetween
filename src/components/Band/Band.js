@@ -62,22 +62,22 @@ componentDidMount(){
 
       <div style={bg}>
       <div style={pgimagestyle}>      </div>
-      <br/><br/>
+      <br/>
       <Container  fluid style={{ lineHeight: '32px' }}>
-      <Row >
-     
-        <Col align="center" xs={12} sm={12} md={12} lg={12}>
+      <div className="container" >
+      <div className="row center-align">
+      <div className="col s6 m6 l6 push-l3 push-m3 push-s3">
+      <div className="animated fadeInDown">
+       <h2  style={positionText}>
 
-       <div className="animated fadeInDown">
-        <h2  style={positionText}>
-        <br/>
-        THE BAND
-        </h2>
-      </div>
-   
-   
-       </Col>
-        </Row> 
+      THE BAND
+       <hr style={{width:'20%'}} />
+       </h2>
+      
+     </div>
+     </div>
+     </div>
+     </div>
         <br />
 
         <Row align="center">

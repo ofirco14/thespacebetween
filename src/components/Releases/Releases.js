@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Container, Row, Col } from 'react-grid-system';
 import YouTube from '@u-wave/react-youtube';
 import pgimage from '../../img/covers/releasespg1.jpg';
 import './Releases.css';
@@ -121,36 +120,35 @@ componentDidMount(){
 
       <div style={bg}>
       <div style={pgimagestyle}>      </div>
-      <br/><br/>
-      <Container  fluid style={{ lineHeight: '32px' }}>
-      <Row>
-      <Col align="center" xs={12} sm={12} md={12} lg={12}>
+      <br/>
 
+      <div className="container" >
+      <div className="row center-align">
+      <div className="col s6 m6 l6 push-l3 push-m3 push-s3">
       <div className="animated fadeInDown">
        <h2  style={positionText}>
-       <br/>
+     
 
         OUR RECORDS
+        <hr style={{width:'20%'}} />
        </h2>
-       
+      
      </div>
-     </Col>
-     </Row>
-     </Container>
+     </div>
+     </div>
+     </div>
+
      
       <div className="container" >
-     <div className="row">
-     <div className="col s12 m12 l12 ">
-     <center>
-       <h3 style={{color:'white'}}>
-         Records
-       </h3>
-       </center>
+     <div className="row center-align">
+     <div className="col s6 m6 l6 push-l3 push-m3 push-s3">
+       <h4 style={{color:'white'}}>
+        R e c o r d s
+       </h4>
        </div>
        </div>
-
-       <div className="row">
-       <div className="col s12 m12 l12">
+       <div className="row center-align">
+       <div className="col s6 m6 l6 push-l3 push-m3 push-s3">
 
        <div className="collection">
 
@@ -167,20 +165,20 @@ componentDidMount(){
          ))}
          
          </div>
-         </div>
+       </div>
        </div>
 
-       <div className="row">
+       <div className="row center-align">
 
-     <div className="col s12 m12 l12">
-     <center>
+     <div className="col s6 m6 l6 push-l3 push-m3 push-s3">
        <YouTube
-      
+       modestBranding={true}
+       allowFullscreen={false}
        showRelatedVideos={false}
        showCaptions ={false}
         showInfo	= {false}
          video={video.id}
-         width={'80%'}
+         width={'100%'}
          height={480}
          controls={false}
          suggestedQuality={suggestedQuality}
@@ -189,7 +187,6 @@ componentDidMount(){
          onPause={this.handlePlayerPause}
          onPlaying={this.handlePlayerPlay}
        />
-       </center>
 
      </div>
      </div>
