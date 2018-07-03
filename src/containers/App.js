@@ -5,6 +5,7 @@ import Navigation from '../components/Navigation/Navigation';
 import Releases from '../components/Releases/Releases';
 import Contact from '../components/Contact/Contact';
 import Band from '../components/Band/Band';
+import Thanks from '../components/Thanks/Thanks';
 
 import {
   BrowserRouter as Router,
@@ -38,6 +39,8 @@ class App extends Component {
       <Route exact path="/band" component={Band} />
       <Route exact path="/releases" component={Releases} />
       <Route exact path="/contact" component={Contact} />
+      <Route exact path="/thanks" component={Thanks} />
+
       </div>
       </Router>
      

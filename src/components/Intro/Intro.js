@@ -71,9 +71,9 @@ componentDidMount(){
           <div className="spacing">
           <div className="animated fadeInDown">
 
-          <h3 style={{color:'#b8ad82',fontWeight:'bold',fontSize:'4vh',}}>
+          <span style={{color:'#b8ad82',fontWeight:'bold',fontSize:'4vh',}}>
           GONE
-        </h3> 
+        </span> 
         </div>
         </div>
           </Col>

@@ -16,13 +16,11 @@ let bg = {
 
 }
 let positionText = {
-  position:'relative',
+
   fontSize: '6vh',
-  width:'100vw',
+
   color:'white',
-  left: '50%',
   
-  transform: `translate(${-50}%, ${-50}%)` 
 
 }
 let pgimagestyle = {
@@ -63,22 +61,22 @@ componentDidMount(){
       <div style={bg}>
       <div style={pgimagestyle}>      </div>
       <br/>
-      <Container  fluid style={{ lineHeight: '32px' }}>
       <div className="container" >
-      <div className="row center-align">
-      <div className="col s6 m6 l6 push-l3 push-m3 push-s3">
+      <div className="row">
+      <div className="col s12 m12 l12">
       <div className="animated fadeInDown">
-       <h2  style={positionText}>
+       <h4 class="center-align"  style={positionText}>
 
       THE BAND
        <hr style={{width:'20%'}} />
-       </h2>
+       </h4>
       
      </div>
      </div>
      </div>
      </div>
         <br />
+        <Container  fluid style={{ lineHeight: '32px' }}>
 
         <Row align="center">
         <Col align="center"lg={4}>

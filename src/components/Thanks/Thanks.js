@@ -1,30 +1,29 @@
 
 import React, { Component } from 'react';
 import pgimage from '../../img/covers/contactbg1.jpg';
-import './Contact.css';
+import './Thanks.css';
 import Loading from 'react-loading-components';
-import Form from '../Form/Form';
 let bg = {
   backgroundColor: 'black',
   height: '100%',
 }
 let positionText = {
-
   fontSize: '6vh',
-
   color:'white',
-  
-
 }
+let delivered = {
+    fontSize: '3vh',
+    color:'white',
+  }
 let pgimagestyle = {
   backgroundImage: `url(${pgimage})`,
   backgroundSize: 'cover',
   backgroundPosition: 'center',
-  height: '73vh',
+  height: '60vh',
 }
 
 
-class Contact extends Component {
+class Thanks extends Component {
   constructor() {
     super();
     this.state = { isLoading: true };
@@ -65,18 +64,38 @@ componentDidMount(){
       <div className="animated fadeInDown">
       <h4 class="center-align"  style={positionText}>
 
-      CONTACT US 
+        Thank you!
       <hr style={{width:'20%'}} />
        </h4>
       
      </div>
+     <div style={delivered}>
+     Your message has been delivered,<br/>
+     We'll contact you as soon as possible. <br/>
+     Visit us at:
+     <br/>
+     <div className="social">
+
+<a href="https://www.facebook.com/thespacebetween2017/" target="_blank">
+     <span class=" align-self-center justify-content-center" id="icon2">
+             <i class="fab fa-facebook fa-2x"></i>
+     </span>
+</a>
+<a href="https://www.instagram.com/thespacebetween_band/" target="_blank">
+     <span class="align-self-center justify-content-center" id="icon3">
+             <i class="fab fa-instagram fa-2x"></i>
+     </span>
+</a>
+<a href="https://www.youtube.com/channel/UCzXVb6JEfkBns6SBVoKlH4g" target="_blank">
+     <span class=" align-self-center justify-content-center" id="icon4">
+             <i class="fab fa-youtube fa-2x"></i>
+     </span>
+</a>
+</div>
+     </div>  
      </div>
      </div>
-     <div className="row center-align">
-     <div className="col s6 m6 l6 push-l3 push-m3 push-s3">
-     <Form/>
-     </div>
-     </div>
+
 
      </div>
 
@@ -87,4 +106,4 @@ componentDidMount(){
   }
 }
 
-export default Contact;
+export default Thanks;

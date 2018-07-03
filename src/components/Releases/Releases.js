@@ -10,13 +10,12 @@ let bg = {
 }
 
 let positionText = {
-  color:'white',
-  position:'relative',
+
   fontSize: '6vh',
-  width:'100vw',
-  left: '50%',
+
+  color:'white',
   
-  transform: `translate(${-50}%, ${-50}%)` 
+
 }
 let pgimagestyle = {
   backgroundImage: `url(${pgimage})`,
@@ -124,14 +123,13 @@ componentDidMount(){
 
       <div className="container" >
       <div className="row center-align">
-      <div className="col s6 m6 l6 push-l3 push-m3 push-s3">
+      <div className="col s12 m12 l12">
       <div className="animated fadeInDown">
-       <h2  style={positionText}>
-     
+      <h4 class="center-align"  style={positionText}>
 
-        OUR RECORDS
-        <hr style={{width:'20%'}} />
-       </h2>
+      OUR RELEASES
+       <hr style={{width:'20%'}} />
+       </h4>
       
      </div>
      </div>
@@ -170,7 +168,7 @@ componentDidMount(){
 
        <div className="row center-align">
 
-     <div className="col s6 m6 l6 push-l3 push-m3 push-s3">
+     <div className="col s12 m12 l8 push-l2">
        <YouTube
        modestBranding={true}
        allowFullscreen={false}
