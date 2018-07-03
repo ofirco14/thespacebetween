@@ -1,12 +1,9 @@
 
 import React, { Component } from 'react';
-import pgimage from '../../img/covers/contactbg1.jpg';
+import pgimage from '../../img/covers/thanksbg1.jpg';
 import './Thanks.css';
 import Loading from 'react-loading-components';
-let bg = {
-  backgroundColor: 'black',
-  height: '100%',
-}
+
 let positionText = {
   fontSize: '6vh',
   color:'white',
@@ -53,7 +50,7 @@ componentDidMount(){
   }
     return (
       
-      <div style={bg}>
+      <div >
 
 
       <div style={pgimagestyle}>      </div>
@@ -72,35 +69,38 @@ componentDidMount(){
      <div style={delivered}>
      Your message has been delivered,<br/>
      We'll contact you as soon as possible. <br/>
-     Visit us at:
      <br/>
+     </div>
      <div className="social">
 
-<a href="https://www.facebook.com/thespacebetween2017/" target="_blank">
-     <span class=" align-self-center justify-content-center" id="icon2">
-             <i class="fab fa-facebook fa-2x"></i>
-     </span>
-</a>
-<a href="https://www.instagram.com/thespacebetween_band/" target="_blank">
-     <span class="align-self-center justify-content-center" id="icon3">
-             <i class="fab fa-instagram fa-2x"></i>
-     </span>
-</a>
-<a href="https://www.youtube.com/channel/UCzXVb6JEfkBns6SBVoKlH4g" target="_blank">
-     <span class=" align-self-center justify-content-center" id="icon4">
-             <i class="fab fa-youtube fa-2x"></i>
-     </span>
-</a>
-</div>
-     </div>  
+     <a href="https://www.facebook.com/thespacebetween2017/" rel="noopener noreferrer"  target="_blank">
+          <span className="" >
+                  <i className="fab fa-facebook fa-3x"></i>
+          </span>
+     </a>
+     
+     <a href="https://www.instagram.com/thespacebetween_band/" rel="noopener noreferrer"  target="_blank">
+          <span className="" id="icon3">
+                  <i className="fab fa-instagram fa-3x"></i>
+          </span>
+     </a>
+     <a href="https://www.youtube.com/channel/UCzXVb6JEfkBns6SBVoKlH4g" rel="noopener noreferrer"  target="_blank">
+          <span className="" id="icon4">
+                  <i className="fab fa-youtube fa-3x"></i>
+          </span>
+     </a>
+     <br/>
+     </div> 
      </div>
+     </div>
+     </div> 
+
+
+
      </div>
 
 
-     </div>
 
-        
-         </div>
 
     );
   }

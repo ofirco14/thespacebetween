@@ -18,6 +18,13 @@ body{
       h1 {
           letter-spacing: 2rem;
       } 
-      .social{
-          display:inline;
-      }
+i{
+    color:white;
+}
+i:hover{
+    color: #b8ad82;
+}
+.social{
+
+    transform: translate(2%, -30%);
+}

@@ -4,24 +4,18 @@ import pgimage from '../../img/covers/releasespg1.jpg';
 import './Releases.css';
 import Loading from 'react-loading-components';
 
-let bg = {
-  backgroundColor: 'black',
-  height: '100%',
-}
+
 
 let positionText = {
-
   fontSize: '6vh',
-
   color:'white',
-  
-
+fontWeight:'lighter',
 }
 let pgimagestyle = {
   backgroundImage: `url(${pgimage})`,
   backgroundSize: 'cover',
   backgroundPosition: 'center',
-  height: '73vh',
+  height: '70vh',
 }
 const videos = [
   { id: 'lwupD4LW99Q', name: 'Gone' },
@@ -117,7 +111,7 @@ componentDidMount(){
   }
     return (
 
-      <div style={bg}>
+      <div>
       <div style={pgimagestyle}>      </div>
       <br/>
 
@@ -125,24 +119,24 @@ componentDidMount(){
       <div className="row center-align">
       <div className="col s12 m12 l12">
       <div className="animated fadeInDown">
-      <h4 class="center-align"  style={positionText}>
+      <span class="center-align"  style={positionText}>
 
       OUR RELEASES
        <hr style={{width:'20%'}} />
-       </h4>
+       </span>
       
      </div>
      </div>
      </div>
      </div>
 
-     
+     <br/>
       <div className="container" >
      <div className="row center-align">
      <div className="col s6 m6 l6 push-l3 push-m3 push-s3">
-       <h4 style={{color:'white'}}>
-        R e c o r d s
-       </h4>
+       <span style={{color:'white',fontSize:'5vh',fontWeight:'lighter'}}>
+       Records
+       </span>
        </div>
        </div>
        <div className="row center-align">

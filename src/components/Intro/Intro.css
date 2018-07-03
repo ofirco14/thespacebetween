@@ -1,7 +1,6 @@
-span,h3,h1{
-    letter-spacing: 2rem;
+h4{
+    letter-spacing: 1.5rem;
 }
-
 .loading{
     
     position:absolute;
@@ -10,8 +9,7 @@ span,h3,h1{
     transform: translate(-50%, -50%);
 }
 .middle{
-    position:fixed;
-    top: 55vh;
+    position:absolute;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align:center;
@@ -37,8 +35,13 @@ span,h3,h1{
 
 }
 
-.buttonStyle{
-    position:fixed;
-    left: 50%;
-    transform: translate(-57%, -57%);
+.add-height{
+    height:100vh;
 }
+/*FIX XS SCREEN LETTER-SPACING*/
+@media only screen and (max-width: 500px) {
+    h4{
+        letter-spacing: 0rem;
+     
+    }
+      }

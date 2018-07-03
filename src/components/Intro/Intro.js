@@ -1,15 +1,11 @@
 import React, { Component } from 'react';
 import './Intro.css';
-import { Container, Row, Col } from 'react-grid-system';
 import Background from '../../img/covers/band.JPG';
 import Loading from 'react-loading-components';
 
 
 
 var introStyle = {
-
-
-
   backgroundImage: `url(${Background})`,
   backgroundSize: 'cover',
   backgroundPosition: 'center',
@@ -49,54 +45,37 @@ componentDidMount(){
       return (
 
         <div style={introStyle}>
-     
-
-        <div className="middle">
-        <Container>
-        <Row align="center">
-          <Col xs={12} sm={12} md={12} lg={12}>
-          <div className="spacing">
+        <div className="add-height valign-wrapper">
+        <div className="container" >
+        <div className="row center-align">
+        <div className="col s12 m12 l12">
+    
           <div className="animated fadeInDown">
-          <h1 style={{color:'white',fontWeight:'lighter',fontSize:'7vh',}}>
+        
+          <h4 style={{color:'white',fontWeight:'lighter',}}>
           NEW SINGLE
-        </h1>
+        </h4>
         </div>
-          </div>
-     
-         </Col>
-          </Row>
-         
-          <Row align="center">
-          <Col xs={12} sm={12} md={12} lg={12}>
-          <div className="spacing">
           <div className="animated fadeInDown">
-
           <span style={{color:'#b8ad82',fontWeight:'bold',fontSize:'4vh',}}>
-          GONE
+          G O N E
         </span> 
-        </div>
-        </div>
-          </Col>
-          </Row>
-          <br /> <br />
-
-          <Row align="center">
-          <Col xs={12} sm={12} md={12} lg={12}>
-          <div className="buttonStyle">
+      </div>
+       <br/>
+          <div>
           <div className="animated fadeInDown">
 
-          <a className="button" href={links.gone} target="_blank"  >WATCH IT NOW</a>
+          <a className="button"  href={links.gone} target="_blank" >WATCH IT NOW</a>
+         </div>
+         
+
         </div>
-          </div>
-          </Col>
-          </Row>
-      </Container>
     
         </div>
         </div>
-
-
-  
+        </div>
+        </div>
+        </div>
 
     );
    

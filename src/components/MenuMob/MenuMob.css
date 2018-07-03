@@ -51,13 +51,18 @@
   .bm-item-list {
     color: #b8b7ad;
     padding: 0.8em;
-    
+  }
+  /*fix materalize bg color*/
+  nav{
+    background-color: #373a47 !important;
   }
   
   /* Individual item */
   .bm-item {
     display: inline-block;
-    padding:2vh;
+    padding:0vh;
+    border: none;
+
   }
   .bm-item:hover{
     color: #b8b7ad;

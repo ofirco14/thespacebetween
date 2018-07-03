@@ -10,11 +10,6 @@ import icon from '../../img/icon.jpg';
 import Loading from 'react-loading-components';
 
 import './Band.css';
-let bg = {
-  backgroundColor: 'black',
-  height: '100%',
-
-}
 let positionText = {
 
   fontSize: '6vh',
@@ -27,7 +22,7 @@ let pgimagestyle = {
   backgroundImage: `url(${pgimage})`,
   backgroundSize: 'cover',
   backgroundPosition: 'center',
-  height: '73vh',
+  height: '70vh',
 }
 class Band extends Component {
   constructor() {
@@ -58,7 +53,7 @@ componentDidMount(){
   }
     return (
 
-      <div style={bg}>
+      <div>
       <div style={pgimagestyle}>      </div>
       <br/>
       <div className="container" >

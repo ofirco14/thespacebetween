@@ -4,10 +4,7 @@ import pgimage from '../../img/covers/contactbg1.jpg';
 import './Contact.css';
 import Loading from 'react-loading-components';
 import Form from '../Form/Form';
-let bg = {
-  backgroundColor: 'black',
-  height: '100%',
-}
+
 let positionText = {
 
   fontSize: '6vh',
@@ -20,7 +17,7 @@ let pgimagestyle = {
   backgroundImage: `url(${pgimage})`,
   backgroundSize: 'cover',
   backgroundPosition: 'center',
-  height: '73vh',
+  height: '70vh',
 }
 
 
@@ -54,7 +51,7 @@ componentDidMount(){
   }
     return (
       
-      <div style={bg}>
+      <div >
 
 
       <div style={pgimagestyle}>      </div>
