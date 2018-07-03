@@ -71,7 +71,11 @@ componentDidMount(){
      </div>
      <div className="row center-align">
      <div className="col s6 m6 l6 push-l3 push-m3 push-s3">
-     <Form/>
+     <Form/><br/><br/>
+     <div className="copyrights">
+     Developed by <a href="https://ofirthedev.github.io/"  rel="noopener noreferrer" target="_blank" style={{color:'#b8ad82'}}>Ofir Cohen</a>
+     </div>
+
      </div>
      </div>
 

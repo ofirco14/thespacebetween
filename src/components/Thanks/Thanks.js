@@ -91,6 +91,10 @@ componentDidMount(){
      </a>
      <br/>
      </div> 
+     <br/><br/>
+     <div className="copyrights">
+     Developed by <a href="https://ofirthedev.github.io/"  rel="noopener noreferrer" target="_blank" style={{color:'#b8ad82'}}>Ofir Cohen</a>
+     </div>
      </div>
      </div>
      </div> 

@@ -181,6 +181,15 @@ componentDidMount(){
        />
 
      </div>
+     
+     </div>
+     <br/><br/>
+     <div className="row center-align">
+     <div className="col s12 m12 l12">
+     <div className="copyrights">
+     Developed by <a href="https://ofirthedev.github.io/"  rel="noopener noreferrer" target="_blank" style={{color:'#b8ad82'}}>Ofir Cohen</a>
+     </div>
+     </div>
      </div>
    </div>
    </div>

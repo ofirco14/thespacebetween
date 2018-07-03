@@ -14,6 +14,9 @@ body {
 	height: 100vh;
   width:100%;
 }
+.copyrights{
+  color:white;
+}
 .animated-page-wrapper {
   position: absolute;
   top: 62px;
