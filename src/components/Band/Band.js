@@ -76,19 +76,19 @@ componentDidMount(){
         <Row align="center">
         <Col align="center"lg={4}>
         <img className="profiles" src = {idan}  alt="idan"/>
-        <div className="profileAlt" style={{color: 'white'}}>Idan Aharoni(guitar&drums)</div>
+        <div className="profileAlt" style={{color: 'white'}}>Idan Aharoni (guitar&drums)</div>
 
         </Col>
         <Col align="center"lg={4}>
 
         <img className="profiles" src ={nik} alt="nik"/>
-        <div className="profileAlt" style={{color: 'white'}}>Nik "Sky" Stepinsky(lead vocalist)</div>
+        <div className="profileAlt" style={{color: 'white'}}>Nik "Sky" Stepinsky (lead vocalist)</div>
 
         </Col>
         <Col align="center" lg={4}>
 
         <img className="profiles" src = {eli} alt="eli"/>
-        <div className="profileAlt" style={{color: 'white'}}>Eli Leonid Perman(bass&vocals)</div>
+        <div className="profileAlt" style={{color: 'white'}}>Eli Leonid Perman (bass&vocals)</div>
 
         </Col>
 
@@ -104,7 +104,7 @@ componentDidMount(){
         <Row align="center">
         <Col  lg={6} align="center">
         <img className="profiles" src = {raanan} alt="raanan"/>
-        <div className="profileAlt" style={{color: 'white'}}>Raanan Naseraldeen(lead guitar)</div>
+        <div className="profileAlt" style={{color: 'white'}}>Raanan Naseraldeen (lead guitar)</div>
 
         </Col>
         <Col lg={6} align="center">
