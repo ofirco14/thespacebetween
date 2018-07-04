@@ -21,7 +21,7 @@ class Intro extends Component {
     this.state = { isLoading: true };
   }
   authenticate(){
-    return new Promise(resolve => setTimeout(resolve, 1000))
+    return new Promise(resolve => setTimeout(resolve, 1200))
   }
 
 componentDidMount(){

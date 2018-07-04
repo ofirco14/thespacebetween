@@ -20,11 +20,8 @@ body{
       } 
 i{
     color:white;
+    padding:2vw;
 }
 i:hover{
     color: #b8ad82;
-}
-.social{
-
-    transform: translate(2%, -30%);
 }
