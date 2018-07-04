@@ -82,7 +82,7 @@ componentDidMount(){
         <Col align="center"lg={4}>
 
         <img className="profiles" src ={nik} alt="nik"/>
-        <div className="profileAlt" style={{color: 'white'}}>Nik Sky Stepinsky(lead vocalist)</div>
+        <div className="profileAlt" style={{color: 'white'}}>Nik "Sky" Stepinsky(lead vocalist)</div>
 
         </Col>
         <Col align="center" lg={4}>
@@ -110,7 +110,7 @@ componentDidMount(){
         <Col lg={6} align="center">
 
         <img className="profiles" src =  {yosef} alt="yosef"/>
-        <div className="profileAlt" style={{color: 'white'}}>Yosef Haco "Hollow" (drums&guitar)</div>
+        <div className="profileAlt" style={{color: 'white'}}>Yosef "Hollow" Haco (drums&guitar)</div>
         </Col>
 
         </Row>
