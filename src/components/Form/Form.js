@@ -17,19 +17,19 @@ class Form extends Component {
            id="contact-form">
            <input type="hidden" name="_next" value="/thanks" />
   <div className="inputGroup">
-    <input id="name" name="user_name" type="text" required ></input>
+    <input autocomplete="off" readonly onfocus="this.removeAttribute('readonly');" id="name" name="user_name" type="text" required ></input>
     <span className="inputBar"></span>
     <label>Name</label>
   </div>
 
   <div className="inputGroup">
-    <input id="email" name="_replyto" type="email" required ></input>
+    <input autocomplete="off" readonly onfocus="this.removeAttribute('readonly');" id="email" name="_replyto" type="email" required ></input>
     <span className="inputBar"></span>
     <label>Email</label>
   </div>
 
   <div className="inputGroup">
-    <textarea id="textarea" name="message" type="textarea" required></textarea>
+    <textarea autocomplete="off" readonly onfocus="this.removeAttribute('readonly');" id="textarea" name="message" type="textarea" required></textarea>
     <span className="inputBar"></span>
     <label>Message</label>
   </div>
